@@ -1,0 +1,20 @@
+[project]
+name = "mysql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "connectorx>=0.4.5",
+    "pandas>=3.0.3",
+    "polars[rtcompat]>=1.41.2",
+    "pyarrow>=24.0.0",
+    "pymysql>=1.2.0",
+    "sqlalchemy>=2.0.50",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+]
